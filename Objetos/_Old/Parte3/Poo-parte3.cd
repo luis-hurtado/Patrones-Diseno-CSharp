@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Objetos.Parte3.Animal">
+    <Position X="1" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAACBAAAAgAAAAAgAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>_Old\Parte3\Animal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Objetos.Parte3.Criatura">
+    <Position X="7" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAACBAAAAgAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>_Old\Parte3\Criatura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Objetos.Parte3.Gato">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>_Old\Parte3\Gato.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Objetos.Parte3.Jirafa">
+    <Position X="6.75" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>_Old\Parte3\Jirafa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Objetos.Parte3.Mono" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="4.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAFAAAAAAAAAgAQAAAAAAAAIAAAAQAAAAAA=</HashCode>
+      <FileName>_Old\Parte3\Mono.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Objetos.Parte3.Perro">
+    <Position X="3" Y="4.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>_Old\Parte3\Perro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Objetos.Parte3.IVivientes">
+    <Position X="9.5" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAFAAAAAAAAAgAQAAAAAAAAIAAAAQAAAAAA=</HashCode>
+      <FileName>_Old\Parte3\Vivientes.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

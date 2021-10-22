@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Objetos.Agregacion.Cliente">
+    <Position X="5" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAIAAAQAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Agregacion\Cliente.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_pedido" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Objetos.Agregacion.Pedido">
+    <Position X="9.75" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAABAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Agregacion\Pedido.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Objetos.Composicion.Automovil">
+    <Position X="4.75" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAIAAAAg=</HashCode>
+      <FileName>Composicion\Automovil.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="llantas" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Objetos.Composicion.Llanta">
+    <Position X="9.75" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAEAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composicion\Llanta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

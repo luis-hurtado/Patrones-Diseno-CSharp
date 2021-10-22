@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3FE2B76B-DA1A-4464-A237-052E0D9EDB82}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Strategy</RootNamespace>
+    <AssemblyName>Strategy</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Antes\AlmacenImagenes.cs" />
+    <Compile Include="Antes\Demo.cs" />
+    <Compile Include="Despues\AlmacenImagenes.cs" />
+    <Compile Include="Despues\CompresorJpeg.cs" />
+    <Compile Include="Despues\CompresorPng.cs" />
+    <Compile Include="Despues\Demo.cs" />
+    <Compile Include="Despues\FiltroAltaResolucion.cs" />
+    <Compile Include="Despues\FiltroBlancoNegro.cs" />
+    <Compile Include="Despues\FiltroSepia.cs" />
+    <Compile Include="Despues\ICompresor.cs" />
+    <Compile Include="Despues\IFiltro.cs" />
+    <Compile Include="Practica\Demo.cs" />
+    <Compile Include="Practica\Habilidad\Golpear.cs" />
+    <Compile Include="Practica\Habilidad\Volar.cs" />
+    <Compile Include="Practica\Habilidad\ISuperPoder.cs" />
+    <Compile Include="Practica\Habilidad\PersonaComun.cs" />
+    <Compile Include="Practica\Habilidad\LanzarTelarañas.cs" />
+    <Compile Include="Practica\Heroes\SuperHeroe.cs" />
+    <Compile Include="Practica\Heroes\Heroes.cs" />
+    <Compile Include="Practica\Heroes\ISuperHeroes.cs" />
+    <Compile Include="Tarea\Antivirus\AnalisisAvanzado.cs" />
+    <Compile Include="Tarea\Antivirus\AnalisisSimple.cs" />
+    <Compile Include="Tarea\Antivirus\AntivirusAvanzado.cs" />
+    <Compile Include="Tarea\Antivirus\AntivirusSimple.cs" />
+    <Compile Include="Tarea\Antivirus\Contexto.cs" />
+    <Compile Include="Tarea\Antivirus\IEstrategia.cs" />
+    <Compile Include="Tarea\Demo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

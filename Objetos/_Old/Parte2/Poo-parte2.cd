@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Objetos.Parte2.Animal">
+    <Position X="3.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAACBAAAAgAAAAAgAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Parte2\Animal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Objetos.Parte2.App">
+    <Position X="14.5" Y="1.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAA=</HashCode>
+      <FileName>Parte2\App.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Objetos.Parte2.Criatura">
+    <Position X="12" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAACBAAAAgAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parte2\Criatura.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Objetos.Parte2.Gato">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parte2\Gato.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Objetos.Parte2.Jirafa">
+    <Position X="12" Y="4.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Parte2\Jirafa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Objetos.Parte2.Mono" BaseTypeListCollapsed="true">
+    <Position X="8.5" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAFAAAAAAAAAgAQAAAAAAAAIAAAAQAAAAAA=</HashCode>
+      <FileName>Parte2\Mono.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Objetos.Parte2.Perro">
+    <Position X="4.5" Y="3.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Parte2\Perro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Objetos.Parte2.IVivientes">
+    <Position X="8.5" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAFAAAAAAAAAgAQAAAAAAAAIAAAAQAAAAAA=</HashCode>
+      <FileName>Parte2\IVivientes.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

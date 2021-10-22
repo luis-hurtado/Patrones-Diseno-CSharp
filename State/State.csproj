@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6F8C4034-AA66-4E40-ABB2-1A871FA81700}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>State</RootNamespace>
+    <AssemblyName>State</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbusoState\EstadoDetenido.cs" />
+    <Compile Include="AbusoState\Cronometro.cs" />
+    <Compile Include="AbusoState\Demo.cs" />
+    <Compile Include="AbusoState\EstadoCorriendo.cs" />
+    <Compile Include="AbusoState\IEstado.cs" />
+    <Compile Include="Abuso\Cronometro.cs" />
+    <Compile Include="Abuso\Demo.cs" />
+    <Compile Include="Demo\Demo.cs" />
+    <Compile Include="Demo\HerramientaBorrador.cs" />
+    <Compile Include="Demo\HerramientaPincel.cs" />
+    <Compile Include="Demo\HerramientaSeleccion.cs" />
+    <Compile Include="Demo\IHerramienta.cs" />
+    <Compile Include="Demo\TipoHerramienta.cs" />
+    <Compile Include="Demo\Lienzo.cs" />
+    <Compile Include="Practica\CajeroAtm.cs" />
+    <Compile Include="Practica\Demo.cs" />
+    <Compile Include="Practica\EstadoTarjetaIntroducida.cs" />
+    <Compile Include="Practica\EstadoPinIntroducido.cs" />
+    <Compile Include="Practica\IEstadoATM.cs" />
+    <Compile Include="Practica\EstadoSinTarjeta.cs" />
+    <Compile Include="Practica\EstadoSinDinero.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tarea\Compra.cs" />
+    <Compile Include="Tarea\Compra.Estados.cs" />
+    <Compile Include="Tarea\Compra.FormasEnvio.cs" />
+    <Compile Include="Tarea\Compra.FormasPago.cs" />
+    <Compile Include="Tarea\Demo.cs" />
+    <Compile Include="Tarea\EstadosCompra\Cancelada.cs" />
+    <Compile Include="Tarea\EstadosCompra\Creada.cs" />
+    <Compile Include="Tarea\EstadosCompra\EnEspera.cs" />
+    <Compile Include="Tarea\EstadosCompra\Enviada.cs" />
+    <Compile Include="Tarea\EstadosCompra\EstadoCompra.cs" />
+    <Compile Include="Tarea\EstadosCompra\Verificada.cs" />
+    <Compile Include="Tarea\FormaEnvio.cs" />
+    <Compile Include="Tarea\FormaPago.cs" />
+    <Compile Include="Tarea\EstadosCompra\IEstadoCompra.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

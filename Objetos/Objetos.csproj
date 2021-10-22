@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{93D213A4-4EAD-4004-AE17-FDEE552D5AA8}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Patrones.Esenciales.POO.Objetos</RootNamespace>
+    <AssemblyName>Objetos</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abstraccion\ServicioCorreo.cs" />
+    <Compile Include="Abstraccion\ServicioCorreoAbstracto.cs" />
+    <Compile Include="Clases Abstractas\Criatura.cs" />
+    <Compile Include="Clases Abstractas\Demo.cs" />
+    <Compile Include="Clases Abstractas\Jirafa.cs" />
+    <Compile Include="Clases y Miembros\Demo.cs" />
+    <Compile Include="Clases y Miembros\EjemploClase.cs" />
+    <Compile Include="Clases y Miembros\EjemploConstructores.cs" />
+    <Compile Include="Clases y Miembros\EjemploMetodos.cs" />
+    <Compile Include="Clases y Miembros\EjemploPropiedades.cs" />
+    <Compile Include="Abstraccion\Demo.cs" />
+    <Compile Include="Acoplamiento\Demo.cs" />
+    <Compile Include="Acoplamiento\Usuario.cs" />
+    <Compile Include="Agregacion\Cliente.cs" />
+    <Compile Include="Agregacion\Pedido.cs" />
+    <Compile Include="Composicion\Automovil.cs" />
+    <Compile Include="Composicion\Llanta.cs" />
+    <Compile Include="Encapsulacion\Cuenta.cs" />
+    <Compile Include="Encapsulacion\Demo.cs" />
+    <Compile Include="Herencia\Demo.cs" />
+    <Compile Include="Herencia\MiTextBox.cs" />
+    <Compile Include="Herencia\UIControl.cs" />
+    <Compile Include="Interfaces\CalculadoraImpuesto2021.cs" />
+    <Compile Include="Interfaces\CalculadoraImpuesto2020.cs" />
+    <Compile Include="Interfaces\Demo.cs" />
+    <Compile Include="Interfaces\ICalculadoraImpuesto.cs" />
+    <Compile Include="_Old\Parte1\Animal.cs" />
+    <Compile Include="_Old\Parte1\Demo.cs" />
+    <Compile Include="_Old\Parte1\Gato.cs" />
+    <Compile Include="_Old\Parte1\Perro.cs" />
+    <Compile Include="_Old\Parte2\Animal.cs" />
+    <Compile Include="_Old\Parte2\Demo.cs" />
+    <Compile Include="_Old\Parte2\Criatura.cs" />
+    <Compile Include="_Old\Parte2\Gato.cs" />
+    <Compile Include="_Old\Parte2\Jirafa.cs" />
+    <Compile Include="_Old\Parte2\Mono.cs" />
+    <Compile Include="_Old\Parte2\Perro.cs" />
+    <Compile Include="_Old\Parte2\IVivientes.cs" />
+    <Compile Include="_Old\Parte3\Animal.cs" />
+    <Compile Include="_Old\Parte3\Demo.cs" />
+    <Compile Include="_Old\Parte3\Criatura.cs" />
+    <Compile Include="_Old\Parte3\Gato.cs" />
+    <Compile Include="_Old\Parte3\Jirafa.cs" />
+    <Compile Include="_Old\Parte3\Mono.cs" />
+    <Compile Include="_Old\Parte3\Perro.cs" />
+    <Compile Include="_Old\Parte3\Vivientes.cs" />
+    <Compile Include="Polimorfismo\Animal.cs" />
+    <Compile Include="Polimorfismo\Demo.cs" />
+    <Compile Include="Polimorfismo\Gato.cs" />
+    <Compile Include="Polimorfismo\Perro.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="_Old\Parte1\Poo-parte1.cd" />
+    <None Include="_Old\Parte2\Poo-parte2.cd" />
+    <None Include="_Old\Parte3\Poo-parte3.cd" />
+    <None Include="Poo-relaciones.cd" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

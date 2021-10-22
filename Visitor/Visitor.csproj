@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A5E2B332-5441-41B3-ABD6-71B663C24022}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Visitor</RootNamespace>
+    <AssemblyName>Visitor</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Despues\Demo.cs" />
+    <Compile Include="Despues\DocumentoHtml.cs" />
+    <Compile Include="Despues\INodoHtml.cs" />
+    <Compile Include="Despues\IOperacion.cs" />
+    <Compile Include="Despues\NodoAncla.cs" />
+    <Compile Include="Despues\NodoCabecera.cs" />
+    <Compile Include="Antes\Demo.cs" />
+    <Compile Include="Antes\DocumentoHtml.cs" />
+    <Compile Include="Antes\INodoHtml.cs" />
+    <Compile Include="Antes\NodoAncla.cs" />
+    <Compile Include="Antes\NodoCabecera.cs" />
+    <Compile Include="Despues\OperacionResaltar.cs" />
+    <Compile Include="Despues\OperacionTextoPlano.cs" />
+    <Compile Include="Ejercicio\Demo.cs" />
+    <Compile Include="Ejercicio\IElemento.cs" />
+    <Compile Include="Ejercicio\EmpleadosConcretos.cs" />
+    <Compile Include="Ejercicio\Empleado.cs" />
+    <Compile Include="Ejercicio\PlanillaEmpleados.cs" />
+    <Compile Include="Ejercicio\OperacionIncrementoSalarial.cs" />
+    <Compile Include="Ejercicio\IVisitor.cs" />
+    <Compile Include="Ejercicio\OperacionAjusteVacaciones.cs" />
+    <Compile Include="Practica\ImpuestoFeriados.cs" />
+    <Compile Include="Practica\ImpuestoGeneral.cs" />
+    <Compile Include="Practica\Demo.cs" />
+    <Compile Include="Practica\IElemento.cs" />
+    <Compile Include="Practica\IVisitor.cs" />
+    <Compile Include="Practica\Licor.cs" />
+    <Compile Include="Practica\PrimeraNecesidad.cs" />
+    <Compile Include="Practica\Tabaco.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
