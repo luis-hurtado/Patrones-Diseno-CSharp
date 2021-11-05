@@ -43,6 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Despues\AdvancedRemoteControl.cs" />
+    <Compile Include="Despues\Demo.cs" />
+    <Compile Include="Despues\IDevice.cs" />
+    <Compile Include="Despues\LGTV.cs" />
+    <Compile Include="Despues\RemoteControl.cs" />
+    <Compile Include="Antes\AdvancedRemoteControl.cs" />
+    <Compile Include="Antes\Demo.cs" />
+    <Compile Include="Antes\RemoteControl.cs" />
+    <Compile Include="Antes\SamsungAdvanceRemoteControl.cs" />
+    <Compile Include="Antes\SamsungRemoteControl.cs" />
+    <Compile Include="Antes\SonyAdvanceRemoteControl.cs" />
+    <Compile Include="Antes\SonyRemoteControl.cs" />
+    <Compile Include="Despues\SamsungTV.cs" />
+    <Compile Include="Despues\SonyTV.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
