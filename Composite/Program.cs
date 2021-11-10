@@ -10,6 +10,15 @@ namespace Composite
     {
         static void Main(string[] args)
         {
+            //Demo Antes
+            //Antes.Demo.Ejecutar();
+            //Demo Antes
+            Despues.Demo.Ejecutar();
+            // Ejercicio
+            //Ejercicio.Demo.Ejecutar();
+            //Practica
+            //Practica.Demo.Ejecutar();
+            Console.ReadKey();
         }
     }
 }

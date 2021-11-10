@@ -43,6 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Despues\Demo.cs" />
+    <Compile Include="Despues\Figura.cs" />
+    <Compile Include="Despues\Grupo.cs" />
+    <Compile Include="Antes\Demo.cs" />
+    <Compile Include="Antes\Figura.cs" />
+    <Compile Include="Antes\Grupo.cs" />
+    <Compile Include="Despues\IComponente.cs" />
+    <Compile Include="Ejercicio\Archivo.cs" />
+    <Compile Include="Ejercicio\Demo.cs" />
+    <Compile Include="Ejercicio\Folder.cs" />
+    <Compile Include="Ejercicio\IComponente.cs" />
+    <Compile Include="Practica\Demo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
