@@ -12,7 +12,7 @@ namespace Facade.Despues
             var servicio = new ServidorNotificaciones();
             Conexion conexion = servicio.Conectar("10.1.1.125");
             AutenticacionPorToken token = servicio.Autenticarse("MiAplicacion", "Vmpbugn");
-            Mensaje mensajeAEnviar = new Mensaje(mensaje, "Texto");
+            Mensaje mensajeAEnviar = new Mensaje(mensaje);
             servicio.EnviarMensaje(token, mensajeAEnviar, destinatarios);
             conexion.Desconectar();
         }

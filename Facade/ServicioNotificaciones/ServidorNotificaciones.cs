@@ -21,7 +21,9 @@ namespace Facade.ServicioNotificaciones
         // Enviar Mensaje
         public void EnviarMensaje(AutenticacionPorToken token, Mensaje mensaje, string destinatarios)
         {
-            Console.WriteLine("Enviando un mensaje: " + mensaje.Contenido);
+            Console.WriteLine("Enviando el mensaje: " + mensaje.Contenido);
+            Console.WriteLine("a: " + destinatarios);
+            Console.WriteLine("usando el token valido: " + token.Token);
         }
 
 

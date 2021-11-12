@@ -2,9 +2,8 @@
 {
     public class Mensaje
     {
-        public Mensaje(string mensaje, string tipo)
+        public Mensaje(string mensaje)
         {
-            System.Console.WriteLine("El mensaje es de tipo");
             this.Contenido = mensaje;
         }
 
