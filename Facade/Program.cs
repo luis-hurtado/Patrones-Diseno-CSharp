@@ -10,6 +10,11 @@ namespace Facade
     {
         static void Main(string[] args)
         {
+            //Antes.Demo.Ejecutar();
+            Despues.Demo.Ejecutar();
+            Console.ReadKey();
+            Despues.Demo2.EjecutarOtroMetodo();
+            Console.ReadLine();
         }
     }
 }

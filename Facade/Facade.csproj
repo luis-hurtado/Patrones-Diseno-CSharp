@@ -43,6 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Despues\Demo.cs" />
+    <Compile Include="Despues\Demo2.cs" />
+    <Compile Include="Despues\FachadaServicioNotificaciones.cs" />
+    <Compile Include="ServicioNotificaciones\Autenticacion\AutenticacionPorToken.cs" />
+    <Compile Include="ServicioNotificaciones\Comunicacion\Conexion.cs" />
+    <Compile Include="Antes\Demo.cs" />
+    <Compile Include="Antes\Demo2.cs" />
+    <Compile Include="ServicioNotificaciones\Modelos\Mensaje.cs" />
+    <Compile Include="ServicioNotificaciones\ServidorNotificaciones.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
