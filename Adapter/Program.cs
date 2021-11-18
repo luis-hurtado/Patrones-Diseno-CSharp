@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Adapter
 {
@@ -10,6 +6,9 @@ namespace Adapter
     {
         static void Main(string[] args)
         {
+            //Problema.Antes.Demo.Ejecutar();
+            Problema.Despues.Demo.Ejecutar();
+            Console.ReadLine();
         }
     }
 }
