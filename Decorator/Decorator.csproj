@@ -43,6 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Despues\CloudStream.cs" />
+    <Compile Include="Despues\CloudStreamComprimido.cs" />
+    <Compile Include="Despues\CloudStreamConLog.cs" />
+    <Compile Include="Despues\CloudStreamEncriptado.cs" />
+    <Compile Include="Despues\Demo.cs" />
+    <Compile Include="Antes\CloudStream.cs" />
+    <Compile Include="Antes\CloudStreamComprimido.cs" />
+    <Compile Include="Antes\CloudStreamComprimidoyEncriptado.cs" />
+    <Compile Include="Antes\CloudStreamEncriptado.cs" />
+    <Compile Include="Antes\Demo.cs" />
+    <Compile Include="Despues\IStream.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
