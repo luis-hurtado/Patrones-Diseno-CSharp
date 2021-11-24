@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Decorator
 {
@@ -11,7 +7,8 @@ namespace Decorator
         static void Main(string[] args)
         {
             //Antes.Demo.Ejecutar();
-            Despues.Demo.Ejecutar();
+            //Despues.Demo.Ejecutar();
+            EjemploPizza.Ejercicio.Ejecutar();
             Console.ReadLine();
 
         }

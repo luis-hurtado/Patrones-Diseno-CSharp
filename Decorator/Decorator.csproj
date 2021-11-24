@@ -54,11 +54,21 @@
     <Compile Include="Antes\CloudStreamEncriptado.cs" />
     <Compile Include="Antes\Demo.cs" />
     <Compile Include="Despues\IStream.cs" />
+    <Compile Include="EjemploPizza\Ejercicio.cs" />
+    <Compile Include="EjemploPizza\Toppings\Chorizo.cs" />
+    <Compile Include="EjemploPizza\Toppings\Boliviana.cs" />
+    <Compile Include="EjemploPizza\Toppings\Hawayana.cs" />
+    <Compile Include="EjemploPizza\IPizza.cs" />
+    <Compile Include="EjemploPizza\Toppings\MasaConSalsaDeTomate.cs" />
+    <Compile Include="EjemploPizza\Toppings\Mozzarella.cs" />
+    <Compile Include="EjemploPizza\PizzaBase.cs" />
+    <Compile Include="EjemploPizza\ToppingDecorator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
