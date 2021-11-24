@@ -43,6 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Despues\Demo.cs" />
+    <Compile Include="Despues\FabricaIconosPunto.cs" />
+    <Compile Include="Despues\IconosPunto.cs" />
+    <Compile Include="Despues\Punto.cs" />
+    <Compile Include="Despues\ServicioPuntos.cs" />
+    <Compile Include="Despues\TipoPunto.cs" />
+    <Compile Include="Antes\Demo.cs" />
+    <Compile Include="Antes\Punto.cs" />
+    <Compile Include="Antes\ServicioPuntos.cs" />
+    <Compile Include="Antes\TipoPunto.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

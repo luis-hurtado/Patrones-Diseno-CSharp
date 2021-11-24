@@ -10,6 +10,11 @@ namespace Flyweight
     {
         static void Main(string[] args)
         {
+            // Antes
+            //Antes.Demo.Ejecutar();
+            // Despues
+            Despues.Demo.Ejecutar();
+            Console.ReadLine();
         }
     }
 }
