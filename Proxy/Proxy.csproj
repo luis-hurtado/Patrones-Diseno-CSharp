@@ -43,11 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Demo\Antes\App.cs" />
+    <Compile Include="Demo\Antes\Biblioteca.cs" />
+    <Compile Include="Demo\Antes\EBook.cs" />
+    <Compile Include="Demo\Despues\App.cs" />
+    <Compile Include="Demo\Despues\Biblioteca.cs" />
+    <Compile Include="Demo\Despues\EBook.cs" />
+    <Compile Include="Demo\Despues\EBookLazyLoadingProxy.cs" />
+    <Compile Include="Demo\Despues\EBookLoggingProxy.cs" />
+    <Compile Include="Demo\Despues\IEBook.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

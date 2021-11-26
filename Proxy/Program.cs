@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Proxy
 {
@@ -10,6 +6,10 @@ namespace Proxy
     {
         static void Main(string[] args)
         {
+            //Demo.Antes.App.Ejecutar();
+            Demo.Despues.App.Ejecutar();
+
+            Console.ReadLine();
         }
     }
 }
