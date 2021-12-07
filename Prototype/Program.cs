@@ -7,7 +7,8 @@ namespace Prototype
         static void Main(string[] args)
         {
             //Demo.Antes.App.Ejecutar();
-            Demo.Despues.App.Ejecutar();
+            //Demo.Despues.App.Ejecutar();
+            Ejercicio.Test.Ejecutar();
             Console.ReadKey();
         }
     }

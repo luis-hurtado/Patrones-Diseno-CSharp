@@ -51,6 +51,10 @@
     <Compile Include="Demo\Antes\Circulo.cs" />
     <Compile Include="Demo\Antes\IComponente.cs" />
     <Compile Include="Demo\Antes\MenuContextual.cs" />
+    <Compile Include="Ejercicio\Dispositivo.cs" />
+    <Compile Include="Ejercicio\Tienda.cs" />
+    <Compile Include="Ejercicio\IDispositivo.cs" />
+    <Compile Include="Ejercicio\Test.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
