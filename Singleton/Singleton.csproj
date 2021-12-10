@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Demo\Antes\App.cs" />
+    <Compile Include="Demo\Antes\ConfigManager.cs" />
+    <Compile Include="Demo\Despues\App.cs" />
+    <Compile Include="Demo\Despues\ConfigManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
