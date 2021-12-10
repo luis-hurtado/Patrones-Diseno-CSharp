@@ -10,6 +10,10 @@ namespace Factory_Method
     {
         static void Main(string[] args)
         {
+            //Demo.Antes.Test.Ejecutar();
+            //Demo.Despues.Test.Ejecutar();
+            Pizzeria.Test.Ejecutar();
+            Console.ReadLine();
         }
     }
 }

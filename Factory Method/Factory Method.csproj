@@ -43,11 +43,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Demo\Antes\Controlador.cs" />
+    <Compile Include="Demo\Antes\ControladorProductos.cs" />
+    <Compile Include="Demo\Antes\MotorVista.cs" />
+    <Compile Include="Demo\Antes\Test.cs" />
+    <Compile Include="Demo\Despues\Controlador.cs" />
+    <Compile Include="Demo\Despues\Cobra\ControladorCobra.cs" />
+    <Compile Include="Demo\Despues\IMotorVista.cs" />
+    <Compile Include="Demo\Despues\ControladorProductos.cs" />
+    <Compile Include="Demo\Despues\Cobra\MotorVistaCobra.cs" />
+    <Compile Include="Demo\Despues\Halcon\ControladorHalcon.cs" />
+    <Compile Include="Demo\Despues\Halcon\MotorVistaHalcon.cs" />
+    <Compile Include="Demo\Despues\Test.cs" />
+    <Compile Include="Pizzeria\Cocinero.cs" />
+    <Compile Include="Pizzeria\CocineroConHorno.cs" />
+    <Compile Include="Pizzeria\CocineroConHornoALaPiedra.cs" />
+    <Compile Include="Pizzeria\CocineroConSarten.cs" />
+    <Compile Include="Pizzeria\Pizza.cs" />
+    <Compile Include="Pizzeria\PizzaALAPiedra.cs" />
+    <Compile Include="Pizzeria\PizzaAlHorno.cs" />
+    <Compile Include="Pizzeria\PizzaAlSarten.cs" />
+    <Compile Include="Pizzeria\Test.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
