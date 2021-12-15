@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{1ECF81AA-07CC-4252-9BC1-68AB9313D68E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Abstract_Factory</RootNamespace>
+    <RootNamespace>AbstractFactory</RootNamespace>
     <AssemblyName>Abstract Factory</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -43,6 +43,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Demo\Antes\Ant\Button.cs" />
+    <Compile Include="Demo\Antes\Ant\TextBox.cs" />
+    <Compile Include="Demo\Antes\App\ContactForm.cs" />
+    <Compile Include="Demo\Antes\App\Test.cs" />
+    <Compile Include="Demo\Antes\IButton.cs" />
+    <Compile Include="Demo\Antes\ITextBox.cs" />
+    <Compile Include="Demo\Antes\IWidget.cs" />
+    <Compile Include="Demo\Antes\Material\Button.cs" />
+    <Compile Include="Demo\Antes\Material\TextBox.cs" />
+    <Compile Include="Demo\Antes\Theme.cs" />
+    <Compile Include="Demo\Despues\Ant\AntWidgetFactory.cs" />
+    <Compile Include="Demo\Despues\Ant\Button.cs" />
+    <Compile Include="Demo\Despues\Ant\TextBox.cs" />
+    <Compile Include="Demo\Despues\App\ContactForm.cs" />
+    <Compile Include="Demo\Despues\App\Test.cs" />
+    <Compile Include="Demo\Despues\IButton.cs" />
+    <Compile Include="Demo\Despues\ITextBox.cs" />
+    <Compile Include="Demo\Despues\IWidget.cs" />
+    <Compile Include="Demo\Despues\IWidgetFactory.cs" />
+    <Compile Include="Demo\Despues\Material\Button.cs" />
+    <Compile Include="Demo\Despues\Material\MaterialWidgetFactory.cs" />
+    <Compile Include="Demo\Despues\Material\TextBox.cs" />
+    <Compile Include="Demo\Despues\Theme.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

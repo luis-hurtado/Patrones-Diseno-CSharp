@@ -1,15 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Abstract_Factory
+namespace AbstractFactory
 {
     class Program
     {
         static void Main(string[] args)
         {
+            //Demo.Antes.App.Test.Ejecutar();
+            Demo.Despues.App.Test.Ejecutar();
+            Console.ReadLine();
         }
     }
 }
