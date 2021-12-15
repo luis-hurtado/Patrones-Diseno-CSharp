@@ -43,11 +43,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Demo\Antes\DocumentoPDF.cs" />
+    <Compile Include="Demo\Antes\FormatoDestino.cs" />
+    <Compile Include="Demo\Antes\Presentacion.cs" />
+    <Compile Include="Demo\Antes\Diapositiva.cs" />
+    <Compile Include="Demo\Antes\Test.cs" />
+    <Compile Include="Demo\Antes\VideoMP4.cs" />
+    <Compile Include="Demo\Despues\ConstructorDocumentoPDF.cs" />
+    <Compile Include="Demo\Despues\ConstructorVideoMP4.cs" />
+    <Compile Include="Demo\Despues\Diapositiva.cs" />
+    <Compile Include="Demo\Despues\DocumentoPDF.cs" />
+    <Compile Include="Demo\Despues\IConstructorPresentacion.cs" />
+    <Compile Include="Demo\Despues\Presentacion.cs" />
+    <Compile Include="Demo\Despues\Test.cs" />
+    <Compile Include="Demo\Despues\VideoMP4.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
